@@ -49,20 +49,6 @@ const profiles = [
     border: 'border-yellow-500/20',
     badge: 'bg-yellow-500/10 text-yellow-300 border-yellow-500/20',
   },
-  {
-    name: 'CodeChef',
-    handle: 'ibrahim-kutty',
-    url: siteConfig.codechef,
-    icon: '👨‍🍳',
-    description: 'Competitive programming, contests, and algorithmic challenges.',
-    stats: [
-      { label: 'Stars', value: '2★', icon: Star },
-      { label: 'Contests', value: 'Active', icon: Code },
-    ],
-    gradient: 'from-brown-700/20 to-amber-800/20',
-    border: 'border-amber-500/20',
-    badge: 'bg-amber-500/10 text-amber-300 border-amber-500/20',
-  },
 ]
 
 export default function CodingProfiles() {
