@@ -61,7 +61,7 @@ export default function CodingProfiles() {
           description="Where I build, network, and sharpen my problem-solving skills."
         />
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {profiles.map((profile, i) => (
             <motion.a
               key={profile.name}
