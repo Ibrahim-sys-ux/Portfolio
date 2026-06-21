@@ -5,7 +5,7 @@ export const siteConfig = {
   phone: "+91 81291 97535",
   location: "Kanayannur, Kerala, India",
   github: "https://github.com/Ibrahim-sys-ux",
-  linkedin: "https://linkedin.com/in/ibrahim-kutty",
+  linkedin: "https://www.linkedin.com/in/ibrahim-kutty-302728314/?isSelfProfile=false",
   leetcode: "https://leetcode.com/ibrahim-kutty",
   codechef: "https://codechef.com/ibrahim-kutty",
   tagline: "Building scalable systems. Crafting clean code. Shipping impact.",
