@@ -24,8 +24,17 @@ export default function Contact() {
     if (!form.name || !form.email || !form.message) return
 
     setStatus('sending')
-    // EmailJS integration placeholder
-    await new Promise((r) => setTimeout(r, 1500))
+    const emailjs = await import('@emailjs/browser')
+    await emailjs.send(
+    process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+    process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+    {
+    from_name: form.name,
+    from_email: form.email,
+    message: form.message,
+    },
+    process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
+    )
     setStatus('sent')
     setForm({ name: '', email: '', subject: '', message: '' })
     setTimeout(() => setStatus('idle'), 3000)
