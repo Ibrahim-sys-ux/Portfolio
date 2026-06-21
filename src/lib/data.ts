@@ -7,7 +7,6 @@ export const siteConfig = {
   github: "https://github.com/Ibrahim-sys-ux",
   linkedin: "https://www.linkedin.com/in/ibrahim-kutty-302728314/?isSelfProfile=false",
   leetcode: "https://leetcode.com/u/ibrahimkutty/",
-  codechef: "https://codechef.com/ibrahim-kutty",
   tagline: "Building scalable systems. Crafting clean code. Shipping impact.",
   about: `Full-stack software developer and MCA student at Amrita Vishwa Vidyapeetham with hands-on experience engineering production-grade web applications. I specialize in Python/Django backends and the MERN stack, with a focus on performance-optimized RESTful APIs, clean architecture, and responsive UIs.
   
